@@ -1,0 +1,34 @@
+Arduino Pro Micro / Leonardo based joypad
+
+MICROCONTROLLER:
+	Atmel/Microchip ATMega32U4
+
+GPIO EXTENDER:
+	TI TCA9539-Q1
+
+BUTTONS:
+
+LT1, RT1:
+	2 x TLLA-72
+	OR
+	2 x APEM 1FS (5G+1DS RAS)
+
+LT2, RT2:
+	2 x TLLA-72 (digital)
+	OR
+	2 x Bourns 3046L-1-103 (analog pot)
+	OR
+	2 x Honeywell  SS490 (analog hall)
+	+ Eclipse Mag. N835RS
+
+CROSS BUTTONS:
+	4 x APEM 1FS (5G+1DS - TH)
+
+SPARE BUTTONS:
+	5 x APEM 1FS
+
+HATSWITCH:
+	1 x ALPS Alpine RKJXS1004001
+
+ANALOG STICK:
+	2 x ALPS Alpine	RKJXU1210006
