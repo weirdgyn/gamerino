@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name gamerino)(type Legacy)(uri ${KIPRJMOD}/gamerino.lib)(options "")(descr ""))
+  (lib (name gamerino-rescue)(type Legacy)(uri ${KIPRJMOD}/gamerino-rescue.lib)(options "")(descr ""))
 )
