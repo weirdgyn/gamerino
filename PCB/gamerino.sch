@@ -18,9 +18,11 @@ L gamerino-rescue:ATmega32U4-MU-MCU_Microchip_ATmega U2
 U 1 1 60A5784F
 P 6075 5050
 F 0 "U2" H 5625 6825 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 6550 6825 50  0000 C CNN
+F 1 "ATmega32U4" H 6550 6825 50  0000 C CNN
 F 2 "Package_QFP:LQFP-44_10x10mm_P0.8mm" H 6075 5050 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 6075 5050 50  0001 C CNN
+F 4 "ATmega32U4-AU" H 6075 5050 50  0001 C CNN "MPN"
+F 5 "Atmel" H 6075 5050 50  0001 C CNN "Manufacturer"
 	1    6075 5050
 	1    0    0    -1  
 $EndComp
@@ -43,8 +45,10 @@ U 1 1 60A5A839
 P 14500 1600
 F 0 "SW6" H 14500 1900 50  0000 C CNN
 F 1 "SW_Push" H 14500 1800 50  0000 C CNN
-F 2 "" H 14500 1800 50  0001 C CNN
+F 2 "gamerino:B3FS-1052" H 14500 1800 50  0001 C CNN
 F 3 "~" H 14500 1800 50  0001 C CNN
+F 4 "B3FS-1052" H 14500 1600 50  0001 C CNN "MPN"
+F 5 "Omron" H 14500 1600 50  0001 C CNN "Manufacturer"
 	1    14500 1600
 	1    0    0    -1  
 $EndComp
@@ -54,8 +58,10 @@ U 1 1 60A5AE7F
 P 14500 1975
 F 0 "SW7" H 14500 2300 50  0000 C CNN
 F 1 "SW_Push" H 14500 2200 50  0000 C CNN
-F 2 "" H 14500 2175 50  0001 C CNN
+F 2 "gamerino:B3FS-1052" H 14500 2175 50  0001 C CNN
 F 3 "~" H 14500 2175 50  0001 C CNN
+F 4 "B3FS-1052" H 14500 1975 50  0001 C CNN "MPN"
+F 5 "Omron" H 14500 1975 50  0001 C CNN "Manufacturer"
 	1    14500 1975
 	1    0    0    -1  
 $EndComp
@@ -65,8 +71,10 @@ U 1 1 60A5B29F
 P 14500 2350
 F 0 "SW8" H 14500 2650 50  0000 C CNN
 F 1 "SW_Push" H 14500 2550 50  0000 C CNN
-F 2 "" H 14500 2550 50  0001 C CNN
+F 2 "gamerino:B3FS-1052" H 14500 2550 50  0001 C CNN
 F 3 "~" H 14500 2550 50  0001 C CNN
+F 4 "B3FS-1052" H 14500 2350 50  0001 C CNN "MPN"
+F 5 "Omron" H 14500 2350 50  0001 C CNN "Manufacturer"
 	1    14500 2350
 	1    0    0    -1  
 $EndComp
@@ -76,8 +84,10 @@ U 1 1 60A5BA97
 P 14500 2725
 F 0 "SW9" H 14500 3050 50  0000 C CNN
 F 1 "SW_Push" H 14500 2950 50  0000 C CNN
-F 2 "" H 14500 2925 50  0001 C CNN
+F 2 "gamerino:B3FS-1052" H 14500 2925 50  0001 C CNN
 F 3 "~" H 14500 2925 50  0001 C CNN
+F 4 "B3FS-1052" H 14500 2725 50  0001 C CNN "MPN"
+F 5 "Omron" H 14500 2725 50  0001 C CNN "Manufacturer"
 	1    14500 2725
 	1    0    0    -1  
 $EndComp
@@ -87,8 +97,10 @@ U 1 1 60A5BBD3
 P 14500 3100
 F 0 "SW10" H 14500 3400 50  0000 C CNN
 F 1 "SW_Push" H 14500 3300 50  0000 C CNN
-F 2 "" H 14500 3300 50  0001 C CNN
+F 2 "gamerino:B3FS-1052" H 14500 3300 50  0001 C CNN
 F 3 "~" H 14500 3300 50  0001 C CNN
+F 4 "B3FS-1052" H 14500 3100 50  0001 C CNN "MPN"
+F 5 "Omron" H 14500 3100 50  0001 C CNN "Manufacturer"
 	1    14500 3100
 	1    0    0    -1  
 $EndComp
@@ -98,8 +110,10 @@ U 1 1 60A5DDD4
 P 14500 3775
 F 0 "SW11" H 14500 4100 50  0000 C CNN
 F 1 "SW_Push" H 14500 4000 50  0000 C CNN
-F 2 "" H 14500 3975 50  0001 C CNN
+F 2 "gamerino:B3FS-1052" H 14500 3975 50  0001 C CNN
 F 3 "~" H 14500 3975 50  0001 C CNN
+F 4 "B3FS-1052" H 14500 3775 50  0001 C CNN "MPN"
+F 5 "Omron" H 14500 3775 50  0001 C CNN "Manufacturer"
 	1    14500 3775
 	1    0    0    -1  
 $EndComp
@@ -109,8 +123,10 @@ U 1 1 60A5DF3C
 P 14500 4150
 F 0 "SW12" H 14500 4450 50  0000 C CNN
 F 1 "SW_Push" H 14500 4350 50  0000 C CNN
-F 2 "" H 14500 4350 50  0001 C CNN
+F 2 "gamerino:B3FS-1052" H 14500 4350 50  0001 C CNN
 F 3 "~" H 14500 4350 50  0001 C CNN
+F 4 "B3FS-1052" H 14500 4150 50  0001 C CNN "MPN"
+F 5 "Omron" H 14500 4150 50  0001 C CNN "Manufacturer"
 	1    14500 4150
 	1    0    0    -1  
 $EndComp
@@ -120,8 +136,10 @@ U 1 1 60A5DF46
 P 14500 4525
 F 0 "SW13" H 14500 4850 50  0000 C CNN
 F 1 "SW_Push" H 14500 4750 50  0000 C CNN
-F 2 "" H 14500 4725 50  0001 C CNN
+F 2 "gamerino:B3FS-1052" H 14500 4725 50  0001 C CNN
 F 3 "~" H 14500 4725 50  0001 C CNN
+F 4 "B3FS-1052" H 14500 4525 50  0001 C CNN "MPN"
+F 5 "Omron" H 14500 4525 50  0001 C CNN "Manufacturer"
 	1    14500 4525
 	1    0    0    -1  
 $EndComp
@@ -131,8 +149,10 @@ U 1 1 60A5DF50
 P 14500 4900
 F 0 "SW14" H 14500 5200 50  0000 C CNN
 F 1 "SW_Push" H 14500 5100 50  0000 C CNN
-F 2 "" H 14500 5100 50  0001 C CNN
+F 2 "gamerino:B3FS-1052" H 14500 5100 50  0001 C CNN
 F 3 "~" H 14500 5100 50  0001 C CNN
+F 4 "B3FS-1052" H 14500 4900 50  0001 C CNN "MPN"
+F 5 "Omron" H 14500 4900 50  0001 C CNN "Manufacturer"
 	1    14500 4900
 	1    0    0    -1  
 $EndComp
@@ -178,8 +198,10 @@ U 1 1 60A59BA1
 P 3725 4550
 F 0 "J1" H 3800 5050 50  0000 C CNN
 F 1 "USB_B_Micro" H 3800 4950 50  0000 C CNN
-F 2 "te:1981568-1" H 3875 4500 50  0001 C CNN
+F 2 "gamerino:TE_1981568-1" H 3875 4500 50  0001 C CNN
 F 3 "~" H 3875 4500 50  0001 C CNN
+F 4 "1981568-1" H 3725 4550 50  0001 C CNN "MPN"
+F 5 "TE" H 3725 4550 50  0001 C CNN "Manufacturer"
 	1    3725 4550
 	1    0    0    -1  
 $EndComp
@@ -292,7 +314,7 @@ Wire Wire Line
 Wire Wire Line
 	8325 4150 8500 4150
 $Comp
-L device:R R7
+L gamerino-rescue:R-device R7
 U 1 1 60A6DF34
 P 8725 3550
 F 0 "R7" V 8475 3575 50  0000 C CNN
@@ -322,7 +344,7 @@ CROSS
 Text Notes 14375 1200 0    50   ~ 0
 SPARE
 $Comp
-L device:CRYSTAL X1
+L gamerino-rescue:CRYSTAL-device X1
 U 1 1 60A7134E
 P 4325 6125
 F 0 "X1" V 4400 5950 50  0000 R CNN
@@ -330,11 +352,12 @@ F 1 "16MHz" V 4300 5950 50  0000 R CNN
 F 2 "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" H 4325 6125 60  0001 C CNN
 F 3 "" H 4325 6125 60  0001 C CNN
 F 4 "XRCHA16M000F0A01R0" V 4325 6125 50  0001 C CNN "MPN"
+F 5 "Murata" H 4325 6125 50  0001 C CNN "Manufacturer"
 	1    4325 6125
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C4
+L gamerino-rescue:C-device C4
 U 1 1 60A7270D
 P 3975 6425
 F 0 "C4" V 3700 6450 50  0000 C CNN
@@ -345,7 +368,7 @@ F 3 "" H 3975 6425 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C3
+L gamerino-rescue:C-device C3
 U 1 1 60A72D0E
 P 3975 5825
 F 0 "C3" V 3700 5850 50  0000 C CNN
@@ -407,7 +430,7 @@ Wire Wire Line
 Wire Wire Line
 	6675 6450 7075 6450
 $Comp
-L conn:CONN_4 P1
+L gamerino-rescue:CONN_4-conn P1
 U 1 1 60A872FE
 P 4225 8125
 F 0 "P1" H 4100 7700 50  0000 C CNN
@@ -420,7 +443,7 @@ F 5 "Molex" H 4225 8125 50  0001 C CNN "Manufacturer"
 	1    0    0    1   
 $EndComp
 $Comp
-L conn:CONN_4 P2
+L gamerino-rescue:CONN_4-conn P2
 U 1 1 60A87A63
 P 4225 8700
 F 0 "P2" H 4400 8600 50  0000 L CNN
@@ -599,8 +622,10 @@ U 1 1 60AE6E72
 P 14450 5600
 F 0 "SW2" H 14450 5900 50  0000 C CNN
 F 1 "SW_Push" H 14450 5800 50  0000 C CNN
-F 2 "" H 14450 5800 50  0001 C CNN
+F 2 "gamerino:B3F-3155" H 14450 5800 50  0001 C CNN
 F 3 "~" H 14450 5800 50  0001 C CNN
+F 4 "B3F-3152" H 14450 5600 50  0001 C CNN "MPN"
+F 5 "Omron" H 14450 5600 50  0001 C CNN "Manufacturer"
 	1    14450 5600
 	-1   0    0    -1  
 $EndComp
@@ -610,8 +635,10 @@ U 1 1 60AE724A
 P 14450 5975
 F 0 "SW3" H 14450 6300 50  0000 C CNN
 F 1 "SW_Push" H 14450 6200 50  0000 C CNN
-F 2 "" H 14450 6175 50  0001 C CNN
+F 2 "gamerino:B3F-3155" H 14450 6175 50  0001 C CNN
 F 3 "~" H 14450 6175 50  0001 C CNN
+F 4 "B3F-3152" H 14450 5975 50  0001 C CNN "MPN"
+F 5 "Omron" H 14450 5975 50  0001 C CNN "Manufacturer"
 	1    14450 5975
 	-1   0    0    -1  
 $EndComp
@@ -621,8 +648,10 @@ U 1 1 60AE753F
 P 14450 6350
 F 0 "SW4" H 14450 6650 50  0000 C CNN
 F 1 "SW_Push" H 14450 6550 50  0000 C CNN
-F 2 "" H 14450 6550 50  0001 C CNN
+F 2 "gamerino:B3F-3155" H 14450 6550 50  0001 C CNN
 F 3 "~" H 14450 6550 50  0001 C CNN
+F 4 "B3F-3152" H 14450 6350 50  0001 C CNN "MPN"
+F 5 "Omron" H 14450 6350 50  0001 C CNN "Manufacturer"
 	1    14450 6350
 	-1   0    0    -1  
 $EndComp
@@ -632,8 +661,10 @@ U 1 1 60AE7788
 P 14450 6725
 F 0 "SW5" H 14450 7050 50  0000 C CNN
 F 1 "SW_Push" H 14450 6950 50  0000 C CNN
-F 2 "" H 14450 6925 50  0001 C CNN
+F 2 "gamerino:B3F-3155" H 14450 6925 50  0001 C CNN
 F 3 "~" H 14450 6925 50  0001 C CNN
+F 4 "B3F-3152" H 14450 6725 50  0001 C CNN "MPN"
+F 5 "Omron" H 14450 6725 50  0001 C CNN "Manufacturer"
 	1    14450 6725
 	-1   0    0    -1  
 $EndComp
@@ -734,7 +765,7 @@ Wire Wire Line
 Wire Wire Line
 	10325 4950 10500 4950
 $Comp
-L conn:CONN_3X2 P3
+L gamerino-rescue:CONN_3X2-conn P3
 U 1 1 60BFF64E
 P 4225 9975
 F 0 "P3" H 4200 10400 50  0000 C CNN
@@ -745,7 +776,7 @@ F 3 "" H 4225 9975 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C C10
+L gamerino-rescue:C-device C10
 U 1 1 60C02BBD
 P 10225 3100
 F 0 "C10" V 9925 3125 50  0000 C CNN
@@ -781,7 +812,7 @@ Connection ~ 6075 7025
 Wire Wire Line
 	6075 7025 6075 7225
 $Comp
-L device:C C8
+L gamerino-rescue:C-device C8
 U 1 1 60A8B583
 P 5175 4850
 F 0 "C8" V 4975 4825 50  0000 C CNN
@@ -860,7 +891,7 @@ Wire Wire Line
 Wire Wire Line
 	6175 3125 6075 3125
 $Comp
-L device:C C7
+L gamerino-rescue:C-device C7
 U 1 1 60AF196A
 P 5175 4150
 F 0 "C7" V 5475 4125 50  0000 C CNN
@@ -895,7 +926,7 @@ Wire Wire Line
 Wire Wire Line
 	6675 5650 7175 5650
 $Comp
-L device:C C5
+L gamerino-rescue:C-device C5
 U 1 1 60C4C88C
 P 4050 1900
 F 0 "C5" H 3900 1950 50  0000 R CNN
@@ -930,7 +961,7 @@ F 3 "" H 4550 2275 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R R6
+L gamerino-rescue:R-device R6
 U 1 1 60C93238
 P 8500 4625
 F 0 "R6" H 8400 4700 50  0000 R CNN
@@ -941,7 +972,7 @@ F 3 "" H 8500 4625 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R8
+L gamerino-rescue:R-device R8
 U 1 1 60C9CA74
 P 8725 4625
 F 0 "R8" H 8800 4700 50  0000 L CNN
@@ -982,7 +1013,7 @@ Connection ~ 8500 4950
 Wire Wire Line
 	8500 4950 8500 4875
 $Comp
-L device:R R9
+L gamerino-rescue:R-device R9
 U 1 1 60CE92FE
 P 9225 3050
 F 0 "R9" H 9300 3100 50  0000 L CNN
@@ -1013,7 +1044,7 @@ Wire Wire Line
 Wire Wire Line
 	8375 3550 8475 3550
 $Comp
-L device:R R1
+L gamerino-rescue:R-device R1
 U 1 1 60D0903C
 P 4425 4550
 F 0 "R1" V 4175 4575 50  0000 C CNN
@@ -1028,7 +1059,7 @@ $EndComp
 Wire Wire Line
 	4675 4550 5475 4550
 $Comp
-L device:R R2
+L gamerino-rescue:R-device R2
 U 1 1 60D0975D
 P 4425 4650
 F 0 "R2" V 4575 4675 50  0000 C CNN
@@ -1056,7 +1087,7 @@ $EndComp
 Wire Wire Line
 	5975 3000 5975 3125
 $Comp
-L device:C C9
+L gamerino-rescue:C-device C9
 U 1 1 60D1E38F
 P 5475 3125
 F 0 "C9" V 5200 3150 50  0000 C CNN
@@ -1085,13 +1116,15 @@ $EndComp
 Wire Wire Line
 	5125 3125 5275 3125
 $Comp
-L microchip5:MIC5219-3.3YM5 U1
+L gamerino-rescue:MIC5219-3.3YM5-microchip5 U1
 U 1 1 60D540E0
 P 2850 1725
 F 0 "U1" H 2850 2100 50  0000 C CNN
 F 1 "MIC5219-3.3YM5" H 2850 2000 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2525 1600 50  0001 C CNN
 F 3 "" H 2525 1600 50  0001 C CNN
+F 4 "MIC5219-3.3YM5" H 2850 1725 50  0001 C CNN "MPN"
+F 5 "Micrel" H 2850 1725 50  0001 C CNN "Manufacturer"
 	1    2850 1725
 	1    0    0    -1  
 $EndComp
@@ -1107,7 +1140,7 @@ F 3 "" H 1325 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L w_device:FUSE F1
+L gamerino-rescue:FUSE-w_device F1
 U 1 1 60D54F5D
 P 1750 1600
 F 0 "F1" H 1750 1850 50  0000 C CNN
@@ -1120,7 +1153,7 @@ F 5 "Bourns" H 1750 1600 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device2:CT C1
+L gamerino-rescue:CT-device2 C1
 U 1 1 60D561C8
 P 2000 1900
 F 0 "C1" H 1850 1950 50  0000 R CNN
@@ -1178,7 +1211,7 @@ Wire Wire Line
 Wire Wire Line
 	1325 1600 1600 1600
 $Comp
-L device2:CT C2
+L gamerino-rescue:CT-device2 C2
 U 1 1 60DA3854
 P 3475 1900
 F 0 "C2" H 3650 1950 50  0000 L CNN
@@ -1191,7 +1224,7 @@ F 5 "AVX" H 3475 1900 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C6
+L gamerino-rescue:C-device C6
 U 1 1 60C4B9EB
 P 4550 1900
 F 0 "C6" H 4400 1950 50  0000 R CNN
@@ -1217,7 +1250,7 @@ Wire Wire Line
 	3475 2200 3475 2100
 Connection ~ 4050 2200
 $Comp
-L device:R R4
+L gamerino-rescue:R-device R4
 U 1 1 60E4EB67
 P 5000 1600
 F 0 "R4" V 4750 1600 50  0000 C CNN
@@ -1244,7 +1277,7 @@ Connection ~ 4550 1600
 Wire Wire Line
 	4550 1600 4750 1600
 $Comp
-L device:LED D1
+L gamerino-rescue:LED-device D1
 U 1 1 60E6894D
 P 5575 1600
 F 0 "D1" H 5600 1300 50  0000 C CNN
@@ -1270,7 +1303,7 @@ Wire Wire Line
 Wire Wire Line
 	5775 1600 5975 1600
 $Comp
-L device:R R3
+L gamerino-rescue:R-device R3
 U 1 1 60ED079A
 P 4550 3050
 F 0 "R3" H 4450 3000 50  0000 R CNN
@@ -1427,7 +1460,7 @@ RT1
 Text Label 13900 6725 2    50   ~ 0
 RT2
 $Comp
-L conn:CONN_8X2 P4
+L gamerino-rescue:CONN_8X2-conn P4
 U 1 1 60F69BD5
 P 6075 8325
 F 0 "P4" H 6050 7725 47  0000 C CNN
@@ -1463,7 +1496,7 @@ F 3 "" H 7950 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R5
+L gamerino-rescue:R-device R5
 U 1 1 60C40C2E
 P 7425 5650
 F 0 "R5" V 7175 5675 50  0000 C CNN
@@ -1603,7 +1636,7 @@ PE6
 Wire Wire Line
 	13900 4150 14300 4150
 $Comp
-L conn:CONN_3 J3
+L gamerino-rescue:CONN_3-conn J3
 U 1 1 61121A56
 P 8175 9925
 F 0 "J3" H 8050 9550 50  0000 C CNN
@@ -1642,7 +1675,7 @@ Wire Wire Line
 Wire Wire Line
 	7825 8175 7825 8500
 $Comp
-L conn:CONN_3 J2
+L gamerino-rescue:CONN_3-conn J2
 U 1 1 6116B2CB
 P 8175 8075
 F 0 "J2" H 8050 7725 50  0000 C CNN
@@ -1655,10 +1688,10 @@ F 5 "Molex" H 8175 8075 50  0001 C CNN "Manufacturer"
 	1    0    0    1   
 $EndComp
 $Comp
-L gamerino-rescue:GND-power #PWR?
+L gamerino-rescue:GND-power #PWR0101
 U 1 1 60A7A8F7
 P 4825 4325
-F 0 "#PWR?" H 4825 4075 50  0001 C CNN
+F 0 "#PWR0101" H 4825 4075 50  0001 C CNN
 F 1 "GND" H 4700 4300 50  0000 R CNN
 F 2 "" H 4825 4325 50  0001 C CNN
 F 3 "" H 4825 4325 50  0001 C CNN
