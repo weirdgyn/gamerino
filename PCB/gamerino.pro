@@ -1,4 +1,4 @@
-update=22/05/2021 23:27:46
+update=25/05/2021 15:42:22
 version=1
 last_client=kicad
 [general]
@@ -27,7 +27,7 @@ version=1
 PageLayoutDescrFile=
 LastNetListRead=gamerino.net
 CopperLayerCount=2
-BoardThickness=1,6
+BoardThickness=0.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
@@ -38,12 +38,12 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0,25
-ViaDiameter1=0,8
-ViaDrill1=0,4
-dPairWidth1=0,2
-dPairGap1=0,25
-dPairViaGap1=0,25
+TrackWidth1=0.25
+ViaDiameter1=0.8
+ViaDrill1=0.4
+dPairWidth1=0.2
+dPairGap1=0.25
+dPairViaGap1=0.25
 SilkLineWidth=0.12
 SilkTextSizeV=1
 SilkTextSizeH=1
@@ -70,7 +70,7 @@ SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
-Type=0
+Type=2
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
@@ -194,7 +194,7 @@ Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
 Name=B.Cu
-Type=0
+Type=2
 Enabled=1
 [pcbnew/Layer.B.Adhes]
 Enabled=0
@@ -237,12 +237,23 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0,2
-TrackWidth=0,25
-ViaDiameter=0,8
-ViaDrill=0,4
-uViaDiameter=0,3
-uViaDrill=0,1
-dPairWidth=0,2
-dPairGap=0,25
-dPairViaGap=0,25
+Clearance=0.2
+TrackWidth=0.25
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=USB90
+Clearance=0.15
+TrackWidth=0.45
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.45
+dPairGap=0.15
+dPairViaGap=0.25
