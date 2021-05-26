@@ -222,8 +222,8 @@ $Comp
 L gamerino-rescue:CRYSTAL-device X1
 U 1 1 60A7134E
 P 4325 6125
-F 0 "X1" V 4400 5950 50  0000 R CNN
-F 1 "16MHz" V 4300 5950 50  0000 R CNN
+F 0 "X1" V 4279 6258 50  0000 L CNN
+F 1 "16MHz" V 4370 6258 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" H 4325 6125 60  0001 C CNN
 F 3 "" H 4325 6125 60  0001 C CNN
 F 4 "XRCHA16M000F0A01R0" V 4325 6125 50  0001 C CNN "MPN"
@@ -233,7 +233,7 @@ F 7 "81-XRCHA16M000F0A1R0" H 4325 6125 50  0001 C CNN "Mouser"
 F 8 "144-6641" H 4325 6125 50  0001 C CNN "RS"
 F 9 "2909954" H 4325 6125 50  0001 C CNN "Farnell"
 	1    4325 6125
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L gamerino-rescue:C-device C4
@@ -269,12 +269,6 @@ F 9 "2210766" H 3975 5825 50  0001 C CNN "Farnell"
 	1    3975 5825
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4175 5825 4325 5825
-Connection ~ 4325 5825
-Wire Wire Line
-	4175 6425 4325 6425
-Connection ~ 4325 6425
 Wire Wire Line
 	3775 5825 3625 5825
 Wire Wire Line
@@ -312,10 +306,6 @@ Wire Wire Line
 	5475 3750 4975 3750
 Wire Wire Line
 	5475 3950 4975 3950
-Wire Wire Line
-	4325 5825 4800 5825
-Wire Wire Line
-	4325 6425 4800 6425
 Wire Wire Line
 	6675 6350 7075 6350
 Wire Wire Line
@@ -1183,8 +1173,6 @@ Text Label 8325 4250 2    50   ~ 0
 SDA
 Text Label 9100 3450 2    50   ~ 0
 IRQ
-Text Label 7075 3550 0    50   ~ 0
-IRQ
 Wire Wire Line
 	6675 3550 7075 3550
 Text Label 10500 3450 0    50   ~ 0
@@ -1263,8 +1251,6 @@ Text Label 13900 1600 2    50   ~ 0
 SELECT
 Text Label 13900 2125 2    50   ~ 0
 START
-Text Label 13900 2675 2    50   ~ 0
-BACK
 Text Label 13900 3800 2    50   ~ 0
 OPTIONS
 Text Label 13900 5175 2    50   ~ 0
@@ -1366,19 +1352,19 @@ Text Label 7075 5050 0    50   ~ 0
 PD3
 Wire Wire Line
 	6475 8175 6875 8175
-Text Label 6875 8175 0    50   ~ 0
+Text Label 6875 8075 0    50   ~ 0
 PD4
 Wire Wire Line
 	6475 8275 6875 8275
-Text Label 6875 8275 0    50   ~ 0
+Text Label 5275 8075 2    50   ~ 0
 PD5
 Wire Wire Line
 	6475 8375 6875 8375
-Text Label 6875 8375 0    50   ~ 0
+Text Label 6875 8175 0    50   ~ 0
 PD6
 Wire Wire Line
 	6475 8475 6875 8475
-Text Label 6875 8475 0    50   ~ 0
+Text Label 6875 8275 0    50   ~ 0
 PD7
 Wire Wire Line
 	6475 7975 6875 7975
@@ -1386,10 +1372,8 @@ Text Label 6875 7975 0    50   ~ 0
 PD2
 Wire Wire Line
 	6475 8075 6875 8075
-Text Label 6875 8075 0    50   ~ 0
+Text Label 5275 8175 2    50   ~ 0
 PD3
-Text Label 7075 4250 0    50   ~ 0
-PB7
 Wire Wire Line
 	6675 4250 7075 4250
 Text Label 7075 4150 0    50   ~ 0
@@ -1409,18 +1393,18 @@ MISO
 Wire Wire Line
 	6675 3850 7075 3850
 Text Label 5275 8375 2    50   ~ 0
-PB7
+PB0
 Wire Wire Line
 	5675 8375 5275 8375
 Text Label 5275 8275 2    50   ~ 0
 PB6
 Wire Wire Line
 	5675 8275 5275 8275
-Text Label 5275 8175 2    50   ~ 0
+Text Label 6875 8475 0    50   ~ 0
 PB5
 Wire Wire Line
 	5675 8175 5275 8175
-Text Label 5275 8075 2    50   ~ 0
+Text Label 6875 8375 0    50   ~ 0
 PB4
 Wire Wire Line
 	5675 8075 5275 8075
@@ -1456,12 +1440,12 @@ F 3 "" H 6675 8925 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5675 8675 5275 8675
-Text Label 5275 8675 2    50   ~ 0
+Text Label 6875 8575 0    50   ~ 0
 PC7
 NoConn ~ 5675 8475
 Wire Wire Line
 	6475 8575 6875 8575
-Text Label 6875 8575 0    50   ~ 0
+Text Label 5275 8675 2    50   ~ 0
 PE6
 $Comp
 L gamerino-rescue:CONN_3-conn J3
@@ -1844,7 +1828,7 @@ L gamerino:TL1 SW8
 U 1 1 60BCD91D
 P 14450 2525
 F 0 "SW8" H 14467 2856 50  0000 C CNN
-F 1 "BACK" H 14467 2765 50  0000 C CNN
+F 1 "CLEAR" H 14467 2765 50  0000 C CNN
 F 2 "gamerino:TL6210" H 14450 2175 50  0001 C CNN
 F 3 "" H 14450 2175 50  0001 C CNN
 F 4 "TL6210AF200GQ" H 14450 2525 50  0001 C CNN "MPN"
@@ -1955,4 +1939,20 @@ Wire Wire Line
 Connection ~ 9975 3100
 Wire Wire Line
 	9975 3100 10025 3100
+Wire Wire Line
+	4175 5825 4325 5825
+Wire Wire Line
+	4175 6425 4325 6425
+Connection ~ 4325 5825
+Wire Wire Line
+	4325 5825 4800 5825
+Connection ~ 4325 6425
+Wire Wire Line
+	4325 6425 4800 6425
+Text Label 13900 2675 2    50   ~ 0
+CLEAR
+Text Label 7075 4250 0    50   ~ 0
+IRQ
+Text Label 7075 3550 0    50   ~ 0
+PB0
 $EndSCHEMATC
