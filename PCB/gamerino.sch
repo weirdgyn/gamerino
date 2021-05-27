@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L gamerino-rescue:ATmega32U4-MU-MCU_Microchip_ATmega U2
+L gamerino:ATmega32U4-MU-MCU_Microchip_ATmega U2
 U 1 1 60A5784F
 P 6075 5050
 F 0 "U2" H 5625 6825 50  0000 C CNN
@@ -156,13 +156,13 @@ Wire Wire Line
 Wire Wire Line
 	6675 4850 7075 4850
 Wire Wire Line
-	6675 5950 7075 5950
+	6675 6350 7075 6350
+Wire Wire Line
+	6675 6450 7075 6450
 Wire Wire Line
 	6675 6050 7075 6050
 Wire Wire Line
 	6675 6150 7075 6150
-Wire Wire Line
-	6675 6250 7075 6250
 Wire Wire Line
 	9325 4950 9100 4950
 Wire Wire Line
@@ -307,9 +307,9 @@ Wire Wire Line
 Wire Wire Line
 	5475 3950 4975 3950
 Wire Wire Line
-	6675 6350 7075 6350
+	6675 5950 7075 5950
 Wire Wire Line
-	6675 6450 7075 6450
+	6675 6250 7075 6250
 $Comp
 L gamerino-rescue:CONN_4-conn P1
 U 1 1 60A872FE
@@ -1187,17 +1187,17 @@ Text Label 10500 3950 0    50   ~ 0
 X
 Text Label 10500 4050 0    50   ~ 0
 B
-Text Label 7075 5950 0    50   ~ 0
-J1X
-Text Label 7075 6050 0    50   ~ 0
-J1Y
-Text Label 7075 6150 0    50   ~ 0
-J2X
-Text Label 7075 6250 0    50   ~ 0
-J2Y
 Text Label 7075 6350 0    50   ~ 0
-LT2
+J1X
 Text Label 7075 6450 0    50   ~ 0
+J1Y
+Text Label 7075 6050 0    50   ~ 0
+J2X
+Text Label 7075 6150 0    50   ~ 0
+J2Y
+Text Label 7075 5950 0    50   ~ 0
+LT2
+Text Label 7075 6250 0    50   ~ 0
 RT2
 Text Label 10500 4150 0    50   ~ 0
 A
@@ -1267,23 +1267,6 @@ Text Label 13900 7725 2    50   ~ 0
 RT1
 Text Label 13900 8100 2    50   ~ 0
 RT2
-$Comp
-L gamerino-rescue:CONN_8X2-conn P4
-U 1 1 60F69BD5
-P 6075 8325
-F 0 "P4" H 6050 7725 47  0000 C CNN
-F 1 "AUX" H 6050 7825 50  0000 C CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_2x08_P1.00mm_Vertical_SMD" H 6075 8325 50  0001 C CNN
-F 3 "" H 6075 8325 50  0001 C CNN
-F 4 "CLM-108-02-F-D" H 6075 8325 50  0001 C CNN "MPN"
-F 5 "Samtec" H 6075 8325 50  0001 C CNN "Manufacturer"
-F 6 "CLM-108-02-F-D-K-TR" H 6075 8325 50  0001 C CNN "Digikey"
-F 7 "200-CLM10802FD" H 6075 8325 50  0001 C CNN "Mouser"
-F 8 "197-6486" H 6075 8325 50  0001 C CNN "RS"
-F 9 "2779396" H 6075 8325 50  0001 C CNN "Farnell"
-	1    6075 8325
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6675 4450 7075 4450
 Text Label 7075 4450 0    50   ~ 0
@@ -1351,29 +1334,23 @@ Wire Wire Line
 Text Label 7075 5050 0    50   ~ 0
 PD3
 Wire Wire Line
-	6475 8175 6875 8175
-Text Label 6875 8075 0    50   ~ 0
+	5900 8275 6300 8275
+Text Label 6300 8175 0    50   ~ 0
 PD4
 Wire Wire Line
-	6475 8275 6875 8275
-Text Label 5275 8075 2    50   ~ 0
+	5900 8375 6300 8375
+Text Label 6300 8075 0    50   ~ 0
 PD5
 Wire Wire Line
-	6475 8375 6875 8375
-Text Label 6875 8175 0    50   ~ 0
+	5900 8475 6300 8475
+Text Label 6300 8275 0    50   ~ 0
 PD6
 Wire Wire Line
-	6475 8475 6875 8475
-Text Label 6875 8275 0    50   ~ 0
+	5900 8575 6300 8575
+Text Label 6300 8375 0    50   ~ 0
 PD7
 Wire Wire Line
-	6475 7975 6875 7975
-Text Label 6875 7975 0    50   ~ 0
-PD2
-Wire Wire Line
-	6475 8075 6875 8075
-Text Label 5275 8175 2    50   ~ 0
-PD3
+	5900 8175 6300 8175
 Wire Wire Line
 	6675 4250 7075 4250
 Text Label 7075 4150 0    50   ~ 0
@@ -1392,61 +1369,50 @@ Text Label 7075 3850 0    50   ~ 0
 MISO
 Wire Wire Line
 	6675 3850 7075 3850
-Text Label 5275 8375 2    50   ~ 0
-PB0
-Wire Wire Line
-	5675 8375 5275 8375
-Text Label 5275 8275 2    50   ~ 0
+Text Label 6300 8675 0    50   ~ 0
 PB6
 Wire Wire Line
-	5675 8275 5275 8275
-Text Label 6875 8475 0    50   ~ 0
+	5900 8675 6300 8675
+Text Label 6300 8575 0    50   ~ 0
 PB5
-Wire Wire Line
-	5675 8175 5275 8175
-Text Label 6875 8375 0    50   ~ 0
+Text Label 6300 8475 0    50   ~ 0
 PB4
 Wire Wire Line
-	5675 8075 5275 8075
+	5900 8075 6300 8075
 $Comp
 L gamerino-rescue:+3.3V-power #PWR017
 U 1 1 61028C60
-P 5500 7825
-F 0 "#PWR017" H 5500 7675 50  0001 C CNN
-F 1 "+3.3V" H 5550 8050 50  0000 C CNN
-F 2 "" H 5500 7825 50  0001 C CNN
-F 3 "" H 5500 7825 50  0001 C CNN
-	1    5500 7825
-	1    0    0    -1  
+P 6075 7825
+F 0 "#PWR017" H 6075 7675 50  0001 C CNN
+F 1 "+3.3V" H 6090 7998 50  0000 C CNN
+F 2 "" H 6075 7825 50  0001 C CNN
+F 3 "" H 6075 7825 50  0001 C CNN
+	1    6075 7825
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 7825 5500 7975
+	6075 7825 6075 7975
 Wire Wire Line
-	5500 7975 5675 7975
+	6075 7975 5900 7975
 Wire Wire Line
-	6475 8675 6675 8675
+	5900 8875 6075 8875
 Wire Wire Line
-	6675 8675 6675 8925
+	6075 8875 6075 9125
 $Comp
 L gamerino-rescue:GND-power #PWR022
 U 1 1 6104C98A
-P 6675 8925
-F 0 "#PWR022" H 6675 8675 50  0001 C CNN
-F 1 "GND" H 6700 8700 50  0000 C CNN
-F 2 "" H 6675 8925 50  0001 C CNN
-F 3 "" H 6675 8925 50  0001 C CNN
-	1    6675 8925
+P 6075 9125
+F 0 "#PWR022" H 6075 8875 50  0001 C CNN
+F 1 "GND" H 6080 8952 50  0000 C CNN
+F 2 "" H 6075 9125 50  0001 C CNN
+F 3 "" H 6075 9125 50  0001 C CNN
+	1    6075 9125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5675 8675 5275 8675
-Text Label 6875 8575 0    50   ~ 0
+Text Label 6300 8775 0    50   ~ 0
 PC7
-NoConn ~ 5675 8475
 Wire Wire Line
-	6475 8575 6875 8575
-Text Label 5275 8675 2    50   ~ 0
-PE6
+	5900 8775 6300 8775
 $Comp
 L gamerino-rescue:CONN_3-conn J3
 U 1 1 61121A56
@@ -1820,8 +1786,6 @@ NoConn ~ 14700 2125
 Wire Wire Line
 	14700 1825 14900 1825
 Connection ~ 14900 1825
-Wire Wire Line
-	14900 1825 14900 2375
 NoConn ~ 14200 1825
 $Comp
 L gamerino:TL1 SW8
@@ -1839,14 +1803,7 @@ F 7 "612-TL6210AF200GQ" H 14450 2525 50  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13900 2675 14200 2675
-Wire Wire Line
-	14700 2375 14900 2375
-Connection ~ 14900 2375
-Wire Wire Line
-	14900 2375 14900 2950
-NoConn ~ 14700 2675
-NoConn ~ 14200 2375
+	15000 2375 14700 2375
 $Comp
 L gamerino:TL1 SW10
 U 1 1 60C25424
@@ -1879,7 +1836,7 @@ U 1 1 60AED526
 P 10725 7975
 F 0 "JOY1" H 10650 8400 50  0000 C CNN
 F 1 "RKJXU" H 10650 8300 50  0000 C CNN
-F 2 "alps:RKJXU" H 10050 7975 50  0001 C CNN
+F 2 "gamerino:RKJXU" H 10050 7975 50  0001 C CNN
 F 3 "" H 10050 7975 50  0001 C CNN
 F 4 "RKJXU1210006" H 10725 7975 50  0001 C CNN "MPN"
 F 5 "ALPS Alpine" H 10725 7975 50  0001 C CNN "Manufacturer"
@@ -1893,7 +1850,7 @@ U 1 1 60AF097E
 P 10725 9825
 F 0 "JOY2" H 10650 10275 50  0000 C CNN
 F 1 "RKJXU" H 10650 10175 50  0000 C CNN
-F 2 "alps:RKJXU" H 10050 9825 50  0001 C CNN
+F 2 "gamerino:RKJXU" H 10050 9825 50  0001 C CNN
 F 3 "" H 10050 9825 50  0001 C CNN
 F 4 "RKJXU1210006" H 10725 9825 50  0001 C CNN "MPN"
 F 5 "ALPS Alpine" H 10725 9825 50  0001 C CNN "Manufacturer"
@@ -1913,7 +1870,6 @@ Wire Wire Line
 	9100 9075 8900 9075
 Text Label 8900 9075 2    50   ~ 0
 LHOME
-NoConn ~ 5675 8575
 Text Label 4725 4550 0    50   ~ 0
 D+
 Text Label 4725 4650 0    50   ~ 0
@@ -1949,10 +1905,34 @@ Wire Wire Line
 Connection ~ 4325 6425
 Wire Wire Line
 	4325 6425 4800 6425
-Text Label 13900 2675 2    50   ~ 0
+Text Label 15000 2375 0    50   ~ 0
 CLEAR
 Text Label 7075 4250 0    50   ~ 0
 IRQ
 Text Label 7075 3550 0    50   ~ 0
 PB0
+$Comp
+L Connector:Conn_01x10_Female P4
+U 1 1 60FF4456
+P 5700 8475
+F 0 "P4" H 5592 7750 50  0000 C CNN
+F 1 "AUX" H 5592 7841 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x10_P1.00mm_Vertical_SMD_Pin1Left" H 5700 8475 50  0001 C CNN
+F 3 "" H 5700 8475 50  0001 C CNN
+F 4 "2073-BC070-10-A-1-L-CCT-ND" H 5700 8475 50  0001 C CNN "Digikey"
+F 5 "BC070-10-A-1-L-C" H 5700 8475 50  0001 C CNN "MPN"
+F 6 "GCT" H 5700 8475 50  0001 C CNN "Manufacturer"
+F 7 "640-BC070-10-A-1-L-C" H 5700 8475 50  0001 C CNN "Mouser"
+	1    5700 8475
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14900 1825 14900 2675
+NoConn ~ 14200 2375
+NoConn ~ 14200 2675
+Wire Wire Line
+	14700 2675 14900 2675
+Connection ~ 14900 2675
+Wire Wire Line
+	14900 2675 14900 2950
 $EndSCHEMATC
