@@ -1,5 +1,5 @@
 Drill report for C:\Users\weird\source\repos\gamerino\PCB\gamerino.kicad_pcb
-Created on 05/29/21 11:57:51
+Created on 31/05/2021 10:17:57
 
 Copper Layer Stackup:
     =============================================================
@@ -10,13 +10,13 @@ Copper Layer Stackup:
 Drill file 'gamerino-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.40mm  0.016"  (94 holes)
-    T2  0.50mm  0.020"  (6 holes)
+    T1  0.40mm  0.016"  (103 holes)
+    T2  0.50mm  0.020"  (10 holes)
     T3  0.80mm  0.031"  (8 holes)
     T4  1.00mm  0.039"  (30 holes)
     T5  1.10mm  0.043"  (8 holes)
 
-    Total plated holes count 146
+    Total plated holes count 159
 
 
 Drill file 'gamerino-NPTH.drl' contains
