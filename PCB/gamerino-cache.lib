@@ -21,6 +21,55 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Conn_01x03_Male
+#
+DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x04_Male
+#
+DEF Connector_Conn_01x04_Male J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x04_Male" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+X Pin_4 4 200 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Conn_01x10_Female
 #
 DEF Connector_Conn_01x10_Female J 0 40 Y N 1 F N
@@ -150,21 +199,6 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# gamerino-rescue_CONN_3-conn
-#
-DEF gamerino-rescue_CONN_3-conn K 0 40 Y N 1 F N
-F0 "K" -50 0 50 V V C CNN
-F1 "gamerino-rescue_CONN_3-conn" 50 0 40 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -100 150 100 -150 0 1 0 N
-X P1 1 -350 100 250 R 60 60 1 1 P I
-X PM 2 -350 0 250 R 60 60 1 1 P I
-X P3 3 -350 -100 250 R 60 60 1 1 P I
-ENDDRAW
-ENDDEF
-#
 # gamerino-rescue_CONN_3X2-conn
 #
 DEF gamerino-rescue_CONN_3X2-conn P 0 40 Y N 1 F N
@@ -180,22 +214,6 @@ X 3 3 -400 50 300 R 60 60 1 1 P I
 X 4 4 400 50 300 L 60 60 1 1 P I
 X 5 5 -400 -50 300 R 60 60 1 1 P I
 X 6 6 400 -50 300 L 60 60 1 1 P I
-ENDDRAW
-ENDDEF
-#
-# gamerino-rescue_CONN_4-conn
-#
-DEF gamerino-rescue_CONN_4-conn P 0 40 Y N 1 F N
-F0 "P" -50 0 50 V V C CNN
-F1 "gamerino-rescue_CONN_4-conn" 50 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -100 200 100 -200 0 1 0 N
-X P1 1 -350 150 250 R 50 50 1 1 P I
-X P2 2 -350 50 250 R 50 50 1 1 P I
-X P3 3 -350 -50 250 R 50 50 1 1 P I
-X P4 4 -350 -150 250 R 50 50 1 1 P I
 ENDDRAW
 ENDDEF
 #
