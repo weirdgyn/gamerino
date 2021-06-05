@@ -3933,7 +3933,6 @@
   (gr_line (start 75.5 97.5) (end 75.5 69.5) (layer Edge.Cuts) (width 0.05) (tstamp 60A90B3F))
   (gr_line (start 200.5 69.5) (end 200.5 97.5) (layer Edge.Cuts) (width 0.05) (tstamp 60A90B4B))
 
-  (via (at 138.06 70.11) (size 0.5) (drill 0.2) (layers F.Cu B.Cu) (net 58))
   (via (at 126.55 76.9) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (status 30))
   (via (at 119.11 106.38) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (via (at 158.04 61.1) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (status 30))
@@ -4374,6 +4373,7 @@
   (segment (start 137.26 83.6425) (end 137.26 84.93) (width 0.25) (layer B.Cu) (net 57) (status 10))
   (segment (start 135.89532 86.3) (end 137.26266 84.93266) (width 0.25) (layer F.Cu) (net 57))
   (segment (start 132.4 86.3) (end 135.89532 86.3) (width 0.25) (layer F.Cu) (net 57))
+  (via (at 138.06 70.11) (size 0.5) (drill 0.2) (layers F.Cu B.Cu) (net 58))
   (segment (start 138.06 72.3175) (end 138.06 69.75) (width 0.45) (layer B.Cu) (net 58))
   (segment (start 138.06 69.75) (end 138.25 69.56) (width 0.45) (layer B.Cu) (net 58))
   (segment (start 138.06 70.11) (end 138.06 69.75) (width 0.45) (layer B.Cu) (net 58))
