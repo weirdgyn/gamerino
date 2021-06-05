@@ -26,3 +26,4 @@ fp-info-cache
 *.csv
 *.zip
 PCB/gamerino.step
+PCB/gamerino.wrl
