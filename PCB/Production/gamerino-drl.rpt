@@ -1,5 +1,5 @@
-Drill report for C:\Users\weird.TUX\source\repos\gamerino\PCB\gamerino.kicad_pcb
-Created on 05/06/2021 08:31:15
+Drill report for C:\Users\weird\source\repos\gamerino\PCB\gamerino.kicad_pcb
+Created on 05/06/2021 12:11:17
 
 Copper Layer Stackup:
     =============================================================
@@ -10,13 +10,13 @@ Copper Layer Stackup:
 Drill file 'gamerino-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0,20mm  0,008"  (2 holes)
-    T2  0,40mm  0,016"  (94 holes)
-    T3  0,50mm  0,020"  (10 holes)
-    T4  0,70mm  0,028"  (10 holes)
-    T5  0,80mm  0,031"  (8 holes)
-    T6  1,00mm  0,039"  (30 holes)
-    T7  1,10mm  0,043"  (8 holes)
+    T1  0.20mm  0.008"  (2 holes)
+    T2  0.40mm  0.016"  (94 holes)
+    T3  0.50mm  0.020"  (10 holes)
+    T4  0.70mm  0.028"  (10 holes)
+    T5  0.80mm  0.031"  (8 holes)
+    T6  1.00mm  0.039"  (30 holes)
+    T7  1.10mm  0.043"  (8 holes)
 
     Total plated holes count 162
 
@@ -24,13 +24,13 @@ Drill file 'gamerino-PTH.drl' contains
 Drill file 'gamerino-NPTH.drl' contains
     unplated through holes:
     =============================================================
-    T1  0,90mm  0,035"  (1 hole)
-    T2  1,00mm  0,039"  (4 holes)
-    T3  1,30mm  0,051"  (1 hole)
-    T4  1,40mm  0,055"  (4 holes)
-    T5  1,50mm  0,059"  (2 holes)
-    T6  2,00mm  0,079"  (2 holes)
-    T7  2,20mm  0,087"  (3 holes)
-    T8  3,20mm  0,126"  (4 holes)
+    T1  0.90mm  0.035"  (1 hole)
+    T2  1.00mm  0.039"  (4 holes)
+    T3  1.30mm  0.051"  (1 hole)
+    T4  1.40mm  0.055"  (4 holes)
+    T5  1.50mm  0.059"  (2 holes)
+    T6  2.00mm  0.079"  (2 holes)
+    T7  2.20mm  0.087"  (3 holes)
+    T8  3.20mm  0.126"  (4 holes)
 
     Total unplated holes count 21
